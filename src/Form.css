@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    margin-left: 45%;
+  }
+  
+  .toggle-button {
+    background-color: #3f51b5;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form {
+    background-color: #6068a1;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .form-content {
+    background-color: #3f51b5;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group.inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-group.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"],
+  button[type="reset"] {
+    background-color: #ffffff;
+    border: 1px solid #3f51b5;
+    color: #3f51b5;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: #3f51b5;
+    color: #ffffff;
+  }
+  
