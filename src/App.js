@@ -5,7 +5,7 @@ import Form from './Form';
 function App() {
   return (
     <div className="App">
-      <h1>William's Extra Credit</h1>
+      <h1>William's Calculator and Form</h1>
      <Calculator/>
      <Form/>
     </div>
